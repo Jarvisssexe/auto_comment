@@ -1,0 +1,25 @@
+# Gemini Comment Bot – Web Extension
+
+This browser extension lets you generate high-quality comments using Google's Gemini API directly from your browser popup.
+
+## 🔧 How to Use
+
+1. Load the extension:
+   - Visit `chrome://extensions/`
+   - Enable Developer Mode
+   - Click “Load unpacked” → select this folder
+
+2. Enter your Gemini API key (from https://makersuite.google.com/)
+3. Paste post text → choose tone → hit Generate.
+4. Copy the result or paste it manually into X, LinkedIn, etc.
+
+## 🧠 Features
+
+- Gemini API integration
+- Local API key storage
+- Copy-to-clipboard support
+- Tiny, fast, and private
+
+---
+
+Let me know if you want `content.js` to auto-detect or scrape text from Twitter pages.
