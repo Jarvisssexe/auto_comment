@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Gemini Comment Bot</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <h2>🧠 Gemini Comment Bot</h2>
+  <textarea id="postText" placeholder="Paste post text here..."></textarea>
+  
+  <select id="tone">
+    <option value="Insightful">Insightful</option>
+    <option value="Funny">Funny</option>
+    <option value="Supportive">Supportive</option>
+    <option value="Critical">Critical</option>
+  </select>
+
+  <input type="password" id="apiKey" placeholder="Enter Gemini API Key" />
+  <button id="saveKey">Save API Key</button>
+  <button id="generate">Generate Comment</button>
+
+  <pre id="result"></pre>
+  <button id="copyBtn">📋 Copy</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
